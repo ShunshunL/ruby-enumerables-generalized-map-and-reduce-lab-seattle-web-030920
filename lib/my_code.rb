@@ -12,9 +12,9 @@ end
 
 def reduce(source_array, starting_point = 0)
   index = 0 
-  return value =
+  return_value = 0 
   while index < source_array.length
-    yield(source_array[index])
+    return_value = yield(source_array[index])
     index += 1 
   end 
 end 
