@@ -17,4 +17,5 @@ def reduce(source_array, starting_point = 0)
     return_value = yield(source_array[index])
     index += 1 
   end 
+  return_value
 end 
